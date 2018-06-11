@@ -18,7 +18,7 @@ function nowServing(katzDeliLine)
   }
 }
 
-function currenLine(katzDeliLine)
+function currentLine(katzDeliLine)
 {
   if(katzDeliLine[0] === undefined)
   {
