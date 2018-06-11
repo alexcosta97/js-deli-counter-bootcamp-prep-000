@@ -22,7 +22,7 @@ function currentLine(katzDeliLine)
 {
   if(katzDeliLine[0] === undefined)
   {
-    return `The line is curently empty.`;
+    return `The line is currently empty.`;
   }
   else
   {
