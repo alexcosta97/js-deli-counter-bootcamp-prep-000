@@ -26,10 +26,10 @@ function currentLine(katzDeliLine)
   }
   else
   {
-    var string = '';
+    var string = 'The line is currently: ';
     for(var i = 0; i < katzDeliLine.length; i++)
     {
-      string += katzDeliLine[i];
+      string += `${i+1}. ${katzDeliLine[i]}`;
     }
     return string;
   }
